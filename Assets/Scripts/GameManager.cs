@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
         if(totalScore >= winScore){
             PlayerPrefs.SetInt("Puntaje", totalScore);
-            SceneManager.LoadScene("Level0");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
     #endregion

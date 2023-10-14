@@ -6,17 +6,17 @@ public class Menu : MonoBehaviour
     #region PantallaDeInicio
     public void ModoHistoria(){
         PlayerPrefs.SetInt("Puntaje", 0);
-        SceneManager.LoadScene("intro");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Infinito(){
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     #endregion
     
     #region Botones
     public void Siguiente(){
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     #endregion
     
