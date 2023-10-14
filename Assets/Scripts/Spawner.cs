@@ -6,11 +6,11 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject[] atomos;
-    //public int cantidadDeAtomos = 10;
+    private int cantidadDeAtomos = 15;
 
     void Start(){
         if(atomos[0] != null){
-            for(int i = 0; i < 10; i++){
+            for(int i = 0; i < cantidadDeAtomos; i++){
                 AparecerAtomo();
             }
         }else{
