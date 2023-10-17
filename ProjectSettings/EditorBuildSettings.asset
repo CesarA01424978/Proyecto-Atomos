@@ -6,21 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/estudio.unity
+    path: Assets/Scenes/00_estudio.unity
     guid: 12d6a79745f01fb44b715f985bf528b0
   - enabled: 1
-    path: Assets/Scenes/level0.unity
+    path: Assets/Scenes/01_menu.unity
     guid: 46197fe7a845bd84da2ef0a5c5eabe9d
   - enabled: 1
-    path: Assets/Scenes/level0_intro.unity
+    path: Assets/Scenes/02_intro.unity
     guid: 26dbbb3acb4594342904be3720cd0c09
   - enabled: 1
-    path: Assets/Scenes/level1_juegoRecolectar.unity
+    path: Assets/Scenes/03_agarraDalton.unity
     guid: 7d51f80176c799e48858211e017d88f2
   - enabled: 1
-    path: Assets/Scenes/level2_explicacion.unity
+    path: Assets/Scenes/04_explicacionDalton.unity
     guid: 68673b9e0427aed4a87b71d2710d1ad5
   - enabled: 1
-    path: Assets/Scenes/level2_juegoArmar.unity
+    path: Assets/Scenes/05_agarraThomson.unity
+    guid: b09743dcbf963ae4986efa428d849844
+  - enabled: 1
+    path: Assets/Scenes/06_construyeThomson.unity
     guid: 37b9ed05a45a9274c8dd7a258f2ac2ce
+  - enabled: 1
+    path: Assets/Scenes/07_explicacionThomson.unity
+    guid: 0048d9782191cf34e8b1353183b44bb3
   m_configObjects: {}
