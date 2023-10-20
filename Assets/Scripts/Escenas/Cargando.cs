@@ -27,7 +27,7 @@ public class Cargando : MonoBehaviour
             textoCargando.text = "Cargando...";
             puntito += 0.1f;
         }else{
-            puntito = 0f;
+            pantalla.SetActive(false);
         }
 
         if(Input.GetKey("q")){

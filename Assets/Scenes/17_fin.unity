@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 233092123}
   - component: {fileID: 233092122}
   m_Layer: 5
-  m_Name: TextoBienvenida
+  m_Name: Texto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,8 +318,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -113.1583, y: 17}
-  m_SizeDelta: {x: 299.0082, y: 353.54}
+  m_AnchoredPosition: {x: -107.788826, y: 19.183697}
+  m_SizeDelta: {x: 309.7472, y: 349.1726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &233092122
 MonoBehaviour:
@@ -341,9 +341,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Te doy la bienvenida, amante  de la ciencia. \n\nMi nombre es Dexter y
-    te ense\xF1ar\xE9 acerca de los modelos at\xF3micos y c\xF3mo estos han ido evolucionando.
-    \n\nEmpecemos con el modelo de Dalton... "
+  m_text: "\xA1Felicidades! \n\nAhora conoces los modelos at\xF3micos por los que
+    la humanidad ha pasado. En teor\xEDa a\xFAn se siguen haciendo experimentos y
+    se siguen descubriendo cosas nuevas del mundo subat\xF3mico, pero ahora depende
+    de t\xED dar la siguiente revoluci\xF3n cient\xEDfica.\n\nNunca dejes de aprender..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -602,7 +603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4604245932257095948, guid: ec1d68bec078c3648bf711d9385345db, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -627,7 +628,7 @@ GameObject:
   - component: {fileID: 688664255}
   - component: {fileID: 688664254}
   m_Layer: 5
-  m_Name: Siguiente
+  m_Name: Infinito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -651,8 +652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -113.5, y: -134}
-  m_SizeDelta: {x: 77.1677, y: 39.9717}
+  m_AnchoredPosition: {x: 165, y: -123.1337}
+  m_SizeDelta: {x: 157.5, y: 44.239}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &688664254
 MonoBehaviour:
@@ -723,7 +724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.54509807, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 0.21176471, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -844,7 +845,7 @@ GameObject:
   - component: {fileID: 1165052019}
   - component: {fileID: 1165052018}
   m_Layer: 5
-  m_Name: flechaSiguiente
+  m_Name: IniciarInfinito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -891,19 +892,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a60cf0c5ace1914191de4d1567a3d41, type: 3}
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 52
+    m_MinSize: 0
+    m_MaxSize: 67
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u279C"
+  m_Text: Iniciar modo Infinito
 --- !u!222 &1165052019
 CanvasRenderer:
   m_ObjectHideFlags: 0

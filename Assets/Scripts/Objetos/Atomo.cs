@@ -13,9 +13,9 @@ public class Atomo : MonoBehaviour
             transform.Translate(vectorFinal * 1f * Time.deltaTime);
         }else if (!repitio){
             //Posicion nueva
-            float randomComplemento = (Random.Range(1, 9))/10;
-            float randomXPosition = (Random.Range(-9, 10)) + randomComplemento + randomComplemento/10;
-            float randomYPosition = (Random.Range(8, 16));
+            float randomComplemento = (Random.Range(1f, 9f))/10f;
+            float randomXPosition = (Random.Range(-9f, 10f)) + randomComplemento + randomComplemento/10;
+            float randomYPosition = (Random.Range(8f, 16f));
             Vector3 vectorInicial = new Vector3(randomXPosition, randomYPosition, 0f);
             transform.position = vectorInicial;
             repitio = true;

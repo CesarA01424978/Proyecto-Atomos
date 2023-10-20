@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement; // Cambio de escena
 public class Base : MonoBehaviour
 {
     // Número de objetos necesarios para cambiar de escena.
-    private int objetosRequeridos = 5;
+    public int objetosRequeridos = 5;
 
     // Lleva un conteo de los objetos que han entrado en contacto.
     private int objetosEnContacto = 0;
@@ -16,9 +16,11 @@ public class Base : MonoBehaviour
     public void ObjetoEnContacto()
     {
         objetosEnContacto++;
+        Debug.Log(objetosEnContacto);
 
         if ((objetosEnContacto >= objetosRequeridos) && enPlano )
         {
+            //Debug.Log("Cambió");
             CambiarEscena();
         }
     }
@@ -26,13 +28,14 @@ public class Base : MonoBehaviour
     public void ObjetoFueraDeRango()
     {
         objetosEnContacto--;
+        //Debug.Log(objetosEnContacto);
     }
 
     // Método para cambiar a una nueva escena.
     private void CambiarEscena()
     {
-        //Debug.Log("Acabó");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Debug.Log("Acabó");
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void OnTriggerEnter(Collider other)
