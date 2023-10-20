@@ -31,9 +31,9 @@ public class Spawner : MonoBehaviour
 
     void AparecerAtomo(){
         //Posicion
-        float randomComplemento = (Random.Range(1, 9))/10;
-        float randomXPosition = (Random.Range(-9, 10)) + randomComplemento;
-        float randomYPosition = (Random.Range(8, 16)) + randomComplemento;
+        float randomComplemento = (Random.Range(1f, 9f))/10f;
+        float randomXPosition = (Random.Range(-9f, 10f)) + randomComplemento;
+        float randomYPosition = (Random.Range(8f, 16f)) + randomComplemento;
         Vector3 spawnPosition = new Vector3(randomXPosition, randomYPosition, 0f);
         //instanciar
         Instantiate(atomos[GetRandomAtomos()], spawnPosition, transform.rotation);//Array

@@ -29,4 +29,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/07_explicacionThomson.unity
     guid: 0048d9782191cf34e8b1353183b44bb3
+  - enabled: 1
+    path: Assets/Scenes/08_agarraRutherford.unity
+    guid: c401dbb90305f774aa5b9d4bebe4f050
+  - enabled: 1
+    path: Assets/Scenes/09_construyeRutherford.unity
+    guid: fc336fda6b9d4df4f91155592f40b06f
+  - enabled: 1
+    path: Assets/Scenes/10_explicacionRutherford.unity
+    guid: e7f825bf840e03e45bbcba925901d3da
+  - enabled: 1
+    path: Assets/Scenes/11_agarraBorn.unity
+    guid: 2e7501aea8f63934b86ccd5c33275888
+  - enabled: 1
+    path: Assets/Scenes/12_construyeBorn.unity
+    guid: fa34e1369e68aa248ace70130b5155c7
+  - enabled: 1
+    path: Assets/Scenes/13_explicacionBorn.unity
+    guid: 0c35ddc51219b8345b0445b5b4f51bf7
+  - enabled: 1
+    path: Assets/Scenes/14_agarraSommerfeld.unity
+    guid: 23a36f5ce83251f40a6de11e0244cc1c
+  - enabled: 1
+    path: Assets/Scenes/15_construyeSommerfeld.unity
+    guid: 676dad117b0ecea459dff54e1796d62f
+  - enabled: 1
+    path: Assets/Scenes/16_explicacionSommerfeld.unity
+    guid: 6ba4429aaa26ec94093cd74ba939e172
+  - enabled: 1
+    path: Assets/Scenes/17_fin.unity
+    guid: 85624652947bd774f97f0ef533e03fa2
+  - enabled: 1
+    path: Assets/Scenes/18_infinito.unity
+    guid: 9426d1c2064bffd41b8a49c1c4dd0e6e
+  - enabled: 1
+    path: Assets/Scenes/19_puntajeFinal.unity
+    guid: 70177224e02966245bfefd764f3fcca4
   m_configObjects: {}

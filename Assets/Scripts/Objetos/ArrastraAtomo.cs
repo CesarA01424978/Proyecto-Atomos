@@ -11,7 +11,7 @@ public class ArrastraAtomo : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.isKinematic = true; // Desactiva la física mientras se arrastra.
+        rb.isKinematic = true; // Desactiva la física.
     }
 
     private void OnMouseDown()
@@ -23,12 +23,12 @@ public class ArrastraAtomo : MonoBehaviour
     private void OnMouseUp()
     {
         isDragging = false;
-        //rb.isKinematic = false; // Reactiva la física cuando se suelta el objeto.
     }
 
     private Vector3 GetMouseWorldPos()
     {
         Vector3 mousePosition = Input.mousePosition;
+        //mousePosition = new Vector3(mousePosition.x, mousePosition.y, -Camera.main.transform.position.z);
         mousePosition.z = -Camera.main.transform.position.z;
         //return mousePosition;
         return Camera.main.ScreenToWorldPoint(mousePosition);

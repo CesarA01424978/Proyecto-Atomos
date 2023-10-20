@@ -12,7 +12,8 @@ public class Menu : MonoBehaviour
     }
 
     public void Infinito(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene("19_puntajeFinal");
+        SceneManager.LoadScene("18_infinito");
     }
     #endregion
     
